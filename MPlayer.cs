@@ -3421,7 +3421,7 @@ namespace RPG
                 player.magicDamage += .05f;
                 player.meleeDamage += .05f;
                 player.statManaMax2 += 10;
-                player.rangedDamage -= .2f;
+                player.rangedDamage += .05f;
                 player.minionDamage -= .2f;
                 player.thrownDamage -= .2f;
                 if (killedEye)
